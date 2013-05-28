@@ -11,5 +11,7 @@ BOT_NAME = 'tramitaflo'
 SPIDER_MODULES = ['tramitaflo.spiders']
 NEWSPIDER_MODULE = 'tramitaflo.spiders'
 
+CONCURRENT_REQUESTS = 8
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'tramitaflo (+http://www.yourdomain.com)'
