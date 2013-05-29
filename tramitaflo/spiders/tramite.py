@@ -59,4 +59,5 @@ class TramiteSpider(CrawlSpider):
         loader.add_xpath('proponente', self.field_xpath % u'Proponente')
         loader.add_xpath('autor', self.field_xpath % u'Autor')
         loader.add_xpath('entrada', self.field_xpath % u'DataEntrada')
+        loader.add_xpath('ementa', self.field_xpath % u'Ementa')
         return loader.load_item()
